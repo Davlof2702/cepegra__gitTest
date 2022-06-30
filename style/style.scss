@@ -3,9 +3,19 @@
     overflow: hidden;
 }
 
-header {
+header,
+footer {
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
